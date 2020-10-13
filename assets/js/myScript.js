@@ -3,7 +3,7 @@ $(document).ready(function(){
 
   // jQuery methods go here...
 
-/* om man klickar på sidan så försvinner texten i <p> */
+/* om man klickar på "hide ?" så försvinner texten i <p> */
   $("p").click(function(){
     $(this).hide("slow");
   });
